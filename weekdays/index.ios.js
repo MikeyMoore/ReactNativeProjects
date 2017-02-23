@@ -1,53 +1,42 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- * @flow
- */
+// Import some code we need
+var React = require('react-native');
+var AppRegistry = React.AppRegistry;
+var Text = React.Text;
+var View = React.View;
+var StyleSheet = React.StyleSheet;
+var DayItem = require('./src/day-item');
 
-import React, {
-  AppRegistry,
-  Component,
-  StyleSheet,
-  Text,
-  View
-} from 'react-native';
+var TITLES = ['M - A New Hope', 'T - The Empire Strikes Back', 'W - Return of the Jedi', 'R - The Phantom Menace', 'F - Attack of the Clones', 'S - Revenge of the Sith', 'Su - The Force Awakens']
 
-class weekdays extends Component {
-  render() {
-    return (
-      <View style={styles.container}>
-        <Text style={styles.welcome}>
-          Welcome to React Native!
-        </Text>
-        <Text style={styles.instructions}>
-          To get started, edit index.ios.js
-        </Text>
-        <Text style={styles.instructions}>
-          Press Cmd+R to reload,{'\n'}
-          Cmd+D or shake for dev menu
-        </Text>
-      </View>
-    );
+// Create a react component
+var Weekdays = React.createClass({
+  render: function(){
+    return <View style={styles.container}>
+      <Text>
+        STAR WARS Week
+      </Text>
+      {this.titles()}
+    </View>
+  },
+  titles: function() {
+    return TITLES.map(function(title){
+      return <DayItem title={title} />
+    });
   }
-}
+});
 
-const styles = StyleSheet.create({
+// Style the React component
+var styles = StyleSheet.create({
   container: {
     flex: 1,
     justifyContent: 'center',
-    alignItems: 'center',
-    backgroundColor: '#F5FCFF',
-  },
-  welcome: {
-    fontSize: 20,
-    textAlign: 'center',
-    margin: 10,
-  },
-  instructions: {
-    textAlign: 'center',
-    color: '#333333',
-    marginBottom: 5,
-  },
+    alignItems: 'center'
+  }
 });
 
-AppRegistry.registerComponent('weekdays', () => weekdays);
+// Show the react component on the screen
+AppRegistry.registerComponent('weekdays', function(){
+  return Weekdays
+});
+
+// MTFBWYA
