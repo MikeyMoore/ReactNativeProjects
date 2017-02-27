@@ -13,6 +13,8 @@
 		A6114B851E640A8A00281EE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6114B841E640A8A00281EE5 /* Assets.xcassets */; };
 		A6114B881E640A8A00281EE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6114B861E640A8A00281EE5 /* LaunchScreen.storyboard */; };
 		A6114B901E64133300281EE5 /* padme.png in Resources */ = {isa = PBXBuildFile; fileRef = A6114B8F1E64133300281EE5 /* padme.png */; };
+		A6114B921E6418FF00281EE5 /* Leia.png in Resources */ = {isa = PBXBuildFile; fileRef = A6114B911E6418FF00281EE5 /* Leia.png */; };
+		A6114B941E64190300281EE5 /* Rey.png in Resources */ = {isa = PBXBuildFile; fileRef = A6114B931E64190300281EE5 /* Rey.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		A6114B871E640A8A00281EE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A6114B891E640A8A00281EE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A6114B8F1E64133300281EE5 /* padme.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = padme.png; sourceTree = "<group>"; };
+		A6114B911E6418FF00281EE5 /* Leia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Leia.png; sourceTree = "<group>"; };
+		A6114B931E64190300281EE5 /* Rey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Rey.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				A6114B7F1E640A8A00281EE5 /* ViewController.swift */,
 				A6114B811E640A8A00281EE5 /* Main.storyboard */,
 				A6114B8F1E64133300281EE5 /* padme.png */,
+				A6114B911E6418FF00281EE5 /* Leia.png */,
+				A6114B931E64190300281EE5 /* Rey.png */,
 				A6114B841E640A8A00281EE5 /* Assets.xcassets */,
 				A6114B861E640A8A00281EE5 /* LaunchScreen.storyboard */,
 				A6114B891E640A8A00281EE5 /* Info.plist */,
@@ -127,8 +133,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6114B941E64190300281EE5 /* Rey.png in Resources */,
 				A6114B881E640A8A00281EE5 /* LaunchScreen.storyboard in Resources */,
 				A6114B851E640A8A00281EE5 /* Assets.xcassets in Resources */,
+				A6114B921E6418FF00281EE5 /* Leia.png in Resources */,
 				A6114B831E640A8A00281EE5 /* Main.storyboard in Resources */,
 				A6114B901E64133300281EE5 /* padme.png in Resources */,
 			);
