@@ -18,7 +18,11 @@ class ViewController: UIViewController {
         
         print("tapped")
         
-        label.text = textField.text
+        var answer = textField.text!
+        
+        answer = "\(answer) is the best"
+        
+        label.text = answer
         
     }
     override func viewDidLoad() {
