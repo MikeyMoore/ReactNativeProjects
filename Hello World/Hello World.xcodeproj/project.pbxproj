@@ -12,6 +12,7 @@
 		A6114B831E640A8A00281EE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6114B811E640A8A00281EE5 /* Main.storyboard */; };
 		A6114B851E640A8A00281EE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6114B841E640A8A00281EE5 /* Assets.xcassets */; };
 		A6114B881E640A8A00281EE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6114B861E640A8A00281EE5 /* LaunchScreen.storyboard */; };
+		A6114B901E64133300281EE5 /* padme.png in Resources */ = {isa = PBXBuildFile; fileRef = A6114B8F1E64133300281EE5 /* padme.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		A6114B841E640A8A00281EE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A6114B871E640A8A00281EE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A6114B891E640A8A00281EE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6114B8F1E64133300281EE5 /* padme.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = padme.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				A6114B7D1E640A8A00281EE5 /* AppDelegate.swift */,
 				A6114B7F1E640A8A00281EE5 /* ViewController.swift */,
 				A6114B811E640A8A00281EE5 /* Main.storyboard */,
+				A6114B8F1E64133300281EE5 /* padme.png */,
 				A6114B841E640A8A00281EE5 /* Assets.xcassets */,
 				A6114B861E640A8A00281EE5 /* LaunchScreen.storyboard */,
 				A6114B891E640A8A00281EE5 /* Info.plist */,
@@ -127,6 +130,7 @@
 				A6114B881E640A8A00281EE5 /* LaunchScreen.storyboard in Resources */,
 				A6114B851E640A8A00281EE5 /* Assets.xcassets in Resources */,
 				A6114B831E640A8A00281EE5 /* Main.storyboard in Resources */,
+				A6114B901E64133300281EE5 /* padme.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
