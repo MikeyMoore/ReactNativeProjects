@@ -42,6 +42,8 @@ class ViewController: UIViewController {
         
         time = 0
         
+        updateTimeLabel()
+        
     }
     
     func stopTimer() {
